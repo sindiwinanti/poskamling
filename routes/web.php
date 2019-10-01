@@ -14,3 +14,15 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('hallo', function () {
+    return view("Hallo hahahahahha");
+});
+
+Route::get('blog', function () {
+    return view('blog');
+});
+
+Route::get('login', 'LoginController@index');
+   
